@@ -4,7 +4,7 @@
 This guide is intended to provide an example of how to use AWS IoT Jobs to update a Nordic nrf9160-dk with ZephyrOS over HTTPS. By default, the examples provided by Nordic only give you the option to perform AWS FOTA over HTTP, so we built this walkthrough to provide you with a more secure option of completing your job downloads over S3 via HTTPS. 
 
 ## Overview
-### Before You Begin / Considerations*
+### Before You Begin / Considerations
 This example is meant to be a guide and starting point for you launch your own FOTA updates with AWS IoT Jobs on the nrf9160-dk. You will want to adjust your security and job parameters to match your needs as the ones used here are 
 
 This is a clone of the https://github.com/nrfconnect/sdk-nrf to complete an AWS IoT Job using HTTPS. For this example we are using version v1.2.0, please ensure you are using that codebase for the rest of this walkthrough.
